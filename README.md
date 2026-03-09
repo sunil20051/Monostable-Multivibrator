@@ -54,7 +54,7 @@ S.No	        R (kΩ)	          C (µF)	        Theoretical Pulse Width	         
 •	Capacitor voltage → Exponential charging waveform
 <img width="1064" height="873" alt="Screenshot 2026-02-23 222421" src="https://github.com/user-attachments/assets/9fda2779-6e2b-400d-ba05-7b5be49b75a6" />
 <img width="1061" height="882" alt="Screenshot 2026-02-23 222451" src="https://github.com/user-attachments/assets/ea869a64-c719-4d68-b8ed-b6b9d47287b0" />
-
+.
 
 ## Result
 The Monostable Multivibrator using NE555 Timer IC was successfully designed and simulated in Proteus.
