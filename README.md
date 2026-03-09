@@ -20,6 +20,8 @@ Pin Connections:
 •	Pin 6 → Threshold
 •	Pin 7 → Discharge
 •	Pin 8 → Vcc
+<img width="1095" height="638" alt="Screenshot 2026-02-23 221945" src="https://github.com/user-attachments/assets/5d4ee3e5-74dc-4563-b3b6-7155e475bbf1" />
+
 ## Circuit Connections:
 •	Resistor R → Between Vcc and Pin 7
 •	Capacitor C → Between Pins 6 & 7 and Ground
@@ -44,10 +46,16 @@ The NE555 operating in monostable mode acts as a one-shot pulse generator. It ha
 7.	Measure pulse width.
 ## Tabulation
 S.No	        R (kΩ)	          C (µF)	        Theoretical Pulse Width	            Practical Pulse Width
+<img width="670" height="308" alt="Screenshot 2026-02-23 222243" src="https://github.com/user-attachments/assets/f87ac6d9-a3d5-4b75-bb17-7d7793a7fe11" />
+
 ## Waveform
 •	Trigger → Short negative pulse
 •	Output → Single positive pulse
 •	Capacitor voltage → Exponential charging waveform
+<img width="1064" height="873" alt="Screenshot 2026-02-23 222421" src="https://github.com/user-attachments/assets/9fda2779-6e2b-400d-ba05-7b5be49b75a6" />
+<img width="1061" height="882" alt="Screenshot 2026-02-23 222451" src="https://github.com/user-attachments/assets/ea869a64-c719-4d68-b8ed-b6b9d47287b0" />
+
+
 ## Result
 The Monostable Multivibrator using NE555 Timer IC was successfully designed and simulated in Proteus.
 A single output pulse of duration approximately 1.1 seconds was obtained.
@@ -58,9 +66,14 @@ The practical value closely matches the theoretical value.
 •	Increasing R or C increases pulse duration.
 •	Used in timers, delay circuits, and pulse generation applications.
 ## Viva Questions
-1.	What is a monostable multivibrator?
-2.	Write the pulse width formula.
-3.	What is the stable state of monostable?
-4.	Why is it called “one-shot”?
-5.	What happens if capacitor value increases?
+1.	What is a monostable multivibrator?<br>
+A circuit with one stable state that produces a single output pulse when triggered.
+2.	Write the pulse width formula.<br>
+T=1.1RC
+3.	What is the stable state of monostable?<br>
+Output LOW.
+4.	Why is it called “one-shot”?<br>
+Because it generates one output pulse for each trigger input.
+5.	What happens if capacitor value increases?<br>
+Pulse width increases.
 
